@@ -40,7 +40,8 @@ export class HomePage {
    
         
     }
-    itemSelected(feed):void{
+    itemSelected(feed):void
+    {
       alert(feed.data.url);
     }
 }
